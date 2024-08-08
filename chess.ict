@@ -1,0 +1,2480 @@
+ctjsVersion: 5.0.1
+backups: 3
+language: catnip
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  pointer: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  pointer.polyfill: {}
+startroom: -1
+contentTypes: []
+actions: []
+scripts: []
+assets:
+  - type: folder
+    uid: L2bmWGcqLnqFDT
+    colorClass: warning
+    icon: help-circle
+    name: pieces
+    lastmod: 1722712543762
+    entries:
+      - type: folder
+        uid: M7NNcR1FfR467F
+        colorClass: act
+        icon: help-circle
+        name: textures
+        lastmod: 1722712865573
+        entries:
+          - lastmod: 1722903383342
+            type: texture
+            name: PB_N
+            untill: 0
+            grid:
+              - 6
+              - 1
+            axis:
+              - 8
+              - 24
+            marginx: 0
+            marginy: 0
+            imgWidth: 96
+            imgHeight: 32
+            width: 16
+            height: 32
+            offx: 0
+            offy: 0
+            origname: ihFd2p9tD3pNLt9.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: hFd2p9tD3pNLt9
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(20).png
+          - lastmod: 1722902179491
+            type: texture
+            name: PW_N
+            untill: 0
+            grid:
+              - 6
+              - 1
+            axis:
+              - 8
+              - 24
+            marginx: 0
+            marginy: 0
+            imgWidth: 96
+            imgHeight: 32
+            width: 16
+            height: 32
+            offx: 0
+            offy: 0
+            origname: ipRKGpnwb3MRrkw.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: pRKGpnwb3MRrkw
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(19).png
+          - lastmod: 1722978660346
+            type: texture
+            name: PW_C
+            untill: 0
+            grid:
+              - 6
+              - 1
+            axis:
+              - 8
+              - 24
+            marginx: 0
+            marginy: 0
+            imgWidth: 96
+            imgHeight: 32
+            width: 16
+            height: 32
+            offx: 0
+            offy: 0
+            origname: iQg8mFQrGGW16rN.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: Qg8mFQrGGW16rN
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(22).png
+          - lastmod: 1723038764900
+            type: texture
+            name: PB_C
+            untill: 0
+            grid:
+              - 6
+              - 1
+            axis:
+              - 8
+              - 24
+            marginx: 0
+            marginy: 0
+            imgWidth: 96
+            imgHeight: 32
+            width: 16
+            height: 32
+            offx: 0
+            offy: 0
+            origname: it4W9tFjw5BD4K4.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: t4W9tFjw5BD4K4
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(23).png
+            r: 8
+          - lastmod: 1722953111860
+            type: texture
+            name: PB
+            untill: 0
+            grid:
+              - 6
+              - 1
+            axis:
+              - 8
+              - 8
+            marginx: 0
+            marginy: 0
+            imgWidth: 96
+            imgHeight: 16
+            width: 16
+            height: 16
+            offx: 0
+            offy: 0
+            origname: ikPjhjmWdNMKjGP.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: kPjhjmWdNMKjGP
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/map(27).png
+          - lastmod: 1722953105803
+            type: texture
+            name: PW
+            untill: 0
+            grid:
+              - 6
+              - 1
+            axis:
+              - 8
+              - 8
+            marginx: 0
+            marginy: 0
+            imgWidth: 96
+            imgHeight: 16
+            width: 16
+            height: 16
+            offx: 0
+            offy: 0
+            origname: iQ7Lhb2pDMB3gr4.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: Q7Lhb2pDMB3gr4
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/map(28).png
+          - lastmod: 1723058960339
+            type: texture
+            name: select_W
+            untill: 0
+            grid:
+              - 4
+              - 1
+            axis:
+              - 16
+              - 16
+            marginx: 0
+            marginy: 0
+            imgWidth: 160
+            imgHeight: 32
+            width: 32
+            height: 32
+            offx: 32
+            offy: 0
+            origname: i6KnbrpPWWwNB24.png
+            shape: rect
+            left: 14
+            right: 14
+            top: 14
+            bottom: 14
+            uid: 6KnbrpPWWwNB24
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(32).png
+          - lastmod: 1723060686022
+            type: texture
+            name: select_B
+            untill: 0
+            grid:
+              - 4
+              - 1
+            axis:
+              - 16
+              - 16
+            marginx: 0
+            marginy: 0
+            imgWidth: 160
+            imgHeight: 32
+            width: 32
+            height: 32
+            offx: 32
+            offy: 0
+            origname: i3NLqKd5WqRn74g.png
+            shape: rect
+            left: 14
+            right: 14
+            top: 14
+            bottom: 14
+            uid: 3NLqKd5WqRn74g
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(34).png
+      - type: template
+        baseClass: AnimatedSprite
+        name: Piece
+        depth: 0
+        texture: pRKGpnwb3MRrkw
+        playAnimationOnStart: false
+        loopAnimation: false
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code:
+              - lib: core.propsVars
+                code: set
+                values:
+                  var:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: dragging
+                  value:
+                    lib: core.logic
+                    code: 'false'
+                    values: {}
+              - lib: core.misc
+                code: js
+                values:
+                  code: |-
+                    this.tex =
+                        this.pts
+                            ? `P${this.pts}_N`
+                            : "PW_N"
+                    // console.log(this.tex)
+              - lib: core.logic
+                code: if branch
+                values:
+                  body1:
+                    - lib: core.propsVars
+                      code: set
+                      values:
+                        var:
+                          lib: core.hidden
+                          code: property
+                          values:
+                            variableName: frame
+                        value: 0
+                  condition:
+                    lib: core.logic
+                    code: NOT a
+                    values:
+                      a:
+                        lib: core.hidden
+                        code: property
+                        values:
+                          variableName: frame
+              - lib: core.appearance
+                code: goto stop
+                values:
+                  frame:
+                    lib: core.utils
+                    code: convert to number
+                    values:
+                      val:
+                        lib: core.hidden
+                        code: property
+                        values:
+                          variableName: frame
+              - lib: core.propsVars
+                code: set
+                values:
+                  var:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: moved
+                  value:
+                    lib: core.logic
+                    code: 'false'
+                    values: {}
+              - lib: core.propsVars
+                code: set
+                values:
+                  var:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: cgroup
+                  value:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: pts
+              - lib: core.objects
+                code: new object
+                values:
+                  return:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: start
+                customOptions:
+                  X:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: X
+                  'Y':
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: 'Y'
+              - lib: core.appearance
+                code: set depth
+                values:
+                  value:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: 'Y'
+            arguments: {}
+            lib: core
+            variables: []
+          - eventKey: OnPointerDown
+            code:
+              - lib: core.logic
+                code: if else branch
+                values:
+                  body1:
+                    - lib: core.propsVars
+                      code: set
+                      values:
+                        var:
+                          lib: core.hidden
+                          code: global variable
+                          values:
+                            variableName: dragging
+                        value:
+                          lib: core.logic
+                          code: 'true'
+                          values: {}
+                    - lib: core.propsVars
+                      code: set
+                      values:
+                        var:
+                          lib: core.hidden
+                          code: property
+                          values:
+                            variableName: dragging
+                        value:
+                          lib: core.logic
+                          code: 'true'
+                          values: {}
+                    - lib: core.misc
+                      code: js
+                      values:
+                        code: |-
+                          globalThis.moves(this)
+                          globalThis.highlight()
+                  body2:
+                    - lib: core.logic
+                      code: if branch
+                      values:
+                        body1:
+                          - lib: core.misc
+                            code: js
+                            values:
+                              code: >-
+                                if(globalThis.validateMove(this) &&
+                                !this.moved){
+                                    this.moved = true
+                                }
+
+                                globalThis.lowlight()
+                          - lib: core.propsVars
+                            code: set
+                            values:
+                              var:
+                                lib: core.hidden
+                                code: global variable
+                                values:
+                                  variableName: dragging
+                              value:
+                                lib: core.logic
+                                code: 'false'
+                                values: {}
+                          - lib: core.propsVars
+                            code: set
+                            values:
+                              var:
+                                lib: core.hidden
+                                code: property
+                                values:
+                                  variableName: dragging
+                              value:
+                                lib: core.logic
+                                code: 'false'
+                                values: {}
+                        condition:
+                          lib: core.logic
+                          code: a AND b
+                          values:
+                            a:
+                              lib: core.hidden
+                              code: property
+                              values:
+                                variableName: dragging
+                            b:
+                              lib: core.hidden
+                              code: global variable
+                              values:
+                                variableName: dragging
+                  condition:
+                    lib: core.logic
+                    code: a AND b
+                    values:
+                      a:
+                        lib: core.logic
+                        code: NOT a
+                        values:
+                          a:
+                            lib: core.hidden
+                            code: property
+                            values:
+                              variableName: dragging
+                      b:
+                        lib: core.logic
+                        code: NOT a
+                        values:
+                          a:
+                            lib: core.hidden
+                            code: global variable
+                            values:
+                              variableName: dragging
+            arguments: {}
+            lib: core
+            variables:
+              - trash
+              - offset
+          - eventKey: OnStep
+            code:
+              - lib: core.appearance
+                code: set depth
+                values:
+                  value:
+                    lib: core.math
+                    code: min
+                    values:
+                      a: 7
+                      b:
+                        lib: core.math
+                        code: max
+                        values:
+                          a: 0
+                          b:
+                            lib: core.math
+                            code: round
+                            values:
+                              a:
+                                lib: core.math
+                                code: /
+                                values:
+                                  a:
+                                    lib: core.math
+                                    code: '-'
+                                    values:
+                                      b:
+                                        lib: core.hidden
+                                        code: global variable
+                                        values:
+                                          variableName: offset
+                                      a:
+                                        lib: core.hidden
+                                        code: property
+                                        values:
+                                          variableName: 'y'
+                                  b: 16
+              - lib: core.logic
+                code: if branch
+                values:
+                  body1:
+                    - lib: core.movement
+                      code: set x
+                      values:
+                        pixels:
+                          lib: core.math
+                          code: +
+                          values:
+                            b:
+                              lib: core.math
+                              code: '*'
+                              values:
+                                b: 16
+                                a:
+                                  lib: core.math
+                                  code: min
+                                  values:
+                                    a: 7
+                                    b:
+                                      lib: core.math
+                                      code: max
+                                      values:
+                                        a: 0
+                                        b:
+                                          lib: core.math
+                                          code: round
+                                          values:
+                                            a:
+                                              lib: core.math
+                                              code: /
+                                              values:
+                                                a:
+                                                  lib: core.math
+                                                  code: '-'
+                                                  values:
+                                                    a:
+                                                      lib: pointer
+                                                      code: pointer.x
+                                                      values: {}
+                                                    b:
+                                                      lib: core.hidden
+                                                      code: global variable
+                                                      values:
+                                                        variableName: offset
+                                                b: 16
+                            a:
+                              lib: core.hidden
+                              code: global variable
+                              values:
+                                variableName: offset
+                    - lib: core.movement
+                      code: set y
+                      values:
+                        pixels:
+                          lib: core.math
+                          code: +
+                          values:
+                            b:
+                              lib: core.math
+                              code: '*'
+                              values:
+                                b: 16
+                                a:
+                                  lib: core.math
+                                  code: min
+                                  values:
+                                    a: 7
+                                    b:
+                                      lib: core.math
+                                      code: max
+                                      values:
+                                        a: 0
+                                        b:
+                                          lib: core.math
+                                          code: round
+                                          values:
+                                            a:
+                                              lib: core.math
+                                              code: /
+                                              values:
+                                                a:
+                                                  lib: core.math
+                                                  code: '-'
+                                                  values:
+                                                    a:
+                                                      lib: pointer
+                                                      code: pointer.y
+                                                      values: {}
+                                                    b:
+                                                      lib: core.hidden
+                                                      code: global variable
+                                                      values:
+                                                        variableName: offset
+                                                b: 16
+                            a:
+                              lib: core.hidden
+                              code: global variable
+                              values:
+                                variableName: offset
+                    - lib: core.misc
+                      code: js
+                      values:
+                        code: |-
+                          if(place.meet(this, "Piece")){
+                              this.zIndex = 999
+                          }
+                  condition:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: dragging
+            arguments: {}
+            lib: core
+            variables: []
+        extends:
+          cgroup: W
+        lastmod: 1722991858986
+        uid: T6r2PQKKW6HjQQ
+        behaviors: []
+        extendTypes: ''
+        properties:
+          - frame
+          - dragging
+          - pts
+          - moved
+          - X
+          - 'Y'
+          - cgroup
+          - start
+          - x
+          - 'y'
+          - zIndex
+      - type: template
+        baseClass: AnimatedSprite
+        name: placeholder
+        depth: 0
+        texture: Q7Lhb2pDMB3gr4
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code:
+              - lib: core.misc
+                code: js
+                values:
+                  code: |-
+                    this.tex =
+                        this.pts
+                            ? `P${this.pts}`
+                            : "PW"
+                    // console.log(this.tex)
+              - lib: core.logic
+                code: if branch
+                values:
+                  body1:
+                    - lib: core.propsVars
+                      code: set
+                      values:
+                        var:
+                          lib: core.hidden
+                          code: property
+                          values:
+                            variableName: frame
+                        value: 0
+                  condition:
+                    lib: core.logic
+                    code: NOT a
+                    values:
+                      a:
+                        lib: core.hidden
+                        code: property
+                        values:
+                          variableName: frame
+              - lib: core.appearance
+                code: goto stop
+                values:
+                  frame:
+                    lib: core.utils
+                    code: convert to number
+                    values:
+                      val:
+                        lib: core.hidden
+                        code: property
+                        values:
+                          variableName: frame
+            arguments: {}
+            lib: core
+            variables: []
+        extends: {}
+        lastmod: 1722953812707
+        uid: rfJb1P2BbzjWrk
+        behaviors: []
+        extendTypes: ''
+        properties:
+          - frame
+      - type: template
+        baseClass: AnimatedSprite
+        name: select
+        depth: 0
+        texture: 6KnbrpPWWwNB24
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnPointerDown
+            code:
+              - lib: core.misc
+                code: js
+                values:
+                  code: |-
+                    globalThis.pawn.frame = this.frame + 1
+                    globalThis.pawn.gotoAndStop(globalThis.pawn.frame)
+                    templates.list['select'].forEach(s => s.kill = true)
+                    templates.list['shadow'][0].kill = true
+            arguments: {}
+            lib: core
+            variables: []
+          - eventKey: OnCreate
+            code:
+              - lib: core.appearance
+                code: set depth
+                values:
+                  value: 20
+              - lib: core.appearance
+                code: goto stop
+                values:
+                  frame:
+                    lib: core.hidden
+                    code: property
+                    values:
+                      variableName: frame
+            arguments: {}
+            lib: core
+            variables: []
+        extends: {}
+        lastmod: 1723060000183
+        uid: rh9Rm3P3bCHHLC
+        behaviors: []
+        extendTypes: ''
+        properties:
+          - frame
+  - type: folder
+    uid: 1d1TG3brmgjLFd
+    colorClass: act
+    icon: help-circle
+    name: boards
+    lastmod: 1722713537384
+    entries:
+      - type: template
+        baseClass: AnimatedSprite
+        name: board
+        depth: 0
+        texture: TtCj52rqrnwbfg
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code:
+              - lib: core.appearance
+                code: set texture
+                values:
+                  texture: 1gC9KNW7W4rKhW
+            arguments: {}
+            lib: core
+            variables: []
+        extends: {}
+        lastmod: 1722825645769
+        uid: 38NmdR7862bh3W
+        behaviors: []
+        extendTypes: ''
+        properties: []
+      - lastmod: 1722953912124
+        type: texture
+        name: main_board
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 104
+          - 104
+        marginx: 0
+        marginy: 0
+        imgWidth: 208
+        imgHeight: 208
+        width: 208
+        height: 208
+        offx: 0
+        offy: 0
+        origname: i1gC9KNW7W4rKhW.png
+        shape: rect
+        left: 88
+        right: 88
+        top: 88
+        bottom: 88
+        uid: 1gC9KNW7W4rKhW
+        padding: 1
+        isBlank: false
+        source: /home/danny/Downloads/pixil-frame-0(24).png
+  - type: folder
+    uid: QQHL2zDr94HzgG
+    colorClass: act
+    icon: help-circle
+    name: screens
+    lastmod: 1722722269385
+    entries:
+      - type: folder
+        uid: pm6CnHjTKDwFkc
+        colorClass: act
+        icon: help-circle
+        name: game
+        lastmod: 1722722305105
+        entries:
+          - type: room
+            oncreate: ''
+            onstep: ''
+            ondraw: ''
+            onleave: ''
+            gridX: 16
+            gridY: 16
+            diagonalGrid: false
+            disableGrid: true
+            simulate: true
+            width: 208
+            height: 208
+            restrictCamera: false
+            restrictMaxX: 1280
+            restrictMinX: 1280
+            restrictMaxY: 720
+            restrictMinY: 720
+            isUi: false
+            name: New Room
+            backgroundColor: '#000000'
+            follow: -1
+            backgrounds: []
+            copies:
+              - x: 104
+                'y': 104
+                opacity: 1
+                tint: 16777215
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                uid: 38NmdR7862bh3W
+                exts: {}
+                customProperties: {}
+                bindings: {}
+              - x: 3.72302967
+                'y': 215.38947341
+                opacity: 1
+                tint: 16777215
+                scale:
+                  x: 0.1
+                  'y': 0.1
+                rotation: 0
+                uid: ntF9B1N8WhH9tD
+                exts: {}
+                customProperties: {}
+                bindings: {}
+            tiles: []
+            extends: {}
+            lastmod: 1723071685729
+            events: []
+            behaviors: []
+            extendTypes: ''
+            uid: 5Cp84fzwRHFPL4
+            properties: []
+          - type: template
+            baseClass: AnimatedSprite
+            name: builder
+            depth: 0
+            texture: -1
+            playAnimationOnStart: false
+            loopAnimation: true
+            animationFPS: 30
+            visible: true
+            events:
+              - eventKey: OnCreate
+                code:
+                  - lib: core.propsVars
+                    code: set
+                    values:
+                      value:
+                        lib: core.logic
+                        code: 'false'
+                        values: {}
+                      var:
+                        lib: core.hidden
+                        code: global variable
+                        values:
+                          variableName: dragging
+                  - lib: core.objects
+                    code: new object
+                    values:
+                      return:
+                        lib: core.hidden
+                        code: variable
+                        values:
+                          variableName: frames
+                    customOptions:
+                      '0': '2'
+                      '1': '1'
+                      '2': '3'
+                      '3': '4'
+                      '4': '5'
+                      '5': '3'
+                      '6': '1'
+                      '7': '2'
+                  - lib: core.misc
+                    code: js
+                    values:
+                      code: |-
+                        globalThis.canGo = []
+                        globalThis.offset = 48
+                        globalThis.turn = "W"
+                  - lib: core.propsVars
+                    code: set
+                    values:
+                      var:
+                        lib: core.hidden
+                        code: variable
+                        values:
+                          variableName: 'off'
+                      value: 48
+                  - lib: core.propsVars
+                    code: set
+                    values:
+                      value:
+                        lib: core.hidden
+                        code: variable
+                        values:
+                          variableName: 'off'
+                      var:
+                        lib: core.hidden
+                        code: global variable
+                        values:
+                          variableName: offset
+                  - lib: core.logic
+                    code: repeat
+                    values:
+                      body:
+                        - lib: core.propsVars
+                          code: set
+                          values:
+                            value:
+                              lib: core.math
+                              code: +
+                              values:
+                                a:
+                                  lib: core.hidden
+                                  code: variable
+                                  values:
+                                    variableName: offset
+                                b:
+                                  lib: core.math
+                                  code: '*'
+                                  values:
+                                    b: 16
+                                    a:
+                                      lib: core.hidden
+                                      code: variable
+                                      values:
+                                        variableName: 'Y'
+                            var:
+                              lib: core.hidden
+                              code: variable
+                              values:
+                                variableName: posY
+                        - lib: core.logic
+                          code: repeat
+                          values:
+                            body:
+                              - lib: core.logic
+                                code: if else branch
+                                values:
+                                  body1:
+                                    - lib: core.propsVars
+                                      code: set
+                                      values:
+                                        var:
+                                          lib: core.hidden
+                                          code: variable
+                                          values:
+                                            variableName: frame
+                                        value:
+                                          lib: core.utils
+                                          code: convert to string
+                                          values:
+                                            val:
+                                              lib: core.hidden
+                                              code: variable
+                                              values:
+                                                variableName: X
+                                  body2:
+                                    - lib: core.propsVars
+                                      code: set
+                                      values:
+                                        var:
+                                          lib: core.hidden
+                                          code: variable
+                                          values:
+                                            variableName: frame
+                                        value: -1
+                                  condition:
+                                    lib: core.math
+                                    code: <
+                                    values:
+                                      a:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: 'Y'
+                                      b: 1
+                              - lib: core.propsVars
+                                code: set
+                                values:
+                                  value:
+                                    lib: core.math
+                                    code: +
+                                    values:
+                                      b:
+                                        lib: core.math
+                                        code: '*'
+                                        values:
+                                          b: 16
+                                          a:
+                                            lib: core.hidden
+                                            code: variable
+                                            values:
+                                              variableName: X
+                                      a:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: 'off'
+                                  var:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: posX
+                              - lib: core
+                                code: templates.copy
+                                values:
+                                  template: T6r2PQKKW6HjQQ
+                                  return:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: trash
+                                  x:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: posX
+                                  'y':
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: posY
+                                customOptions:
+                                  frame:
+                                    lib: core.objects
+                                    code: object read
+                                    values:
+                                      property:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: frame
+                                      object:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: frames
+                                  pts:
+                                    lib: core.utils
+                                    code: const string
+                                    values:
+                                      val: B
+                                  X:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: X
+                                  'Y':
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: 'Y'
+                            'N': 8
+                            variableName:
+                              lib: core.hidden
+                              code: variable
+                              values:
+                                variableName: X
+                      'N': 2
+                      variableName:
+                        lib: core.hidden
+                        code: variable
+                        values:
+                          variableName: 'Y'
+                  - lib: core.logic
+                    code: repeat
+                    values:
+                      body:
+                        - lib: core.propsVars
+                          code: set
+                          values:
+                            value:
+                              lib: core.math
+                              code: +
+                              values:
+                                b:
+                                  lib: core.math
+                                  code: '*'
+                                  values:
+                                    b: 16
+                                    a:
+                                      lib: core.math
+                                      code: +
+                                      values:
+                                        a:
+                                          lib: core.hidden
+                                          code: variable
+                                          values:
+                                            variableName: 'Y'
+                                        b: 6
+                                a:
+                                  lib: core.hidden
+                                  code: variable
+                                  values:
+                                    variableName: 'off'
+                            var:
+                              lib: core.hidden
+                              code: variable
+                              values:
+                                variableName: posY
+                        - lib: core.logic
+                          code: repeat
+                          values:
+                            body:
+                              - lib: core.logic
+                                code: if else branch
+                                values:
+                                  body1:
+                                    - lib: core.propsVars
+                                      code: set
+                                      values:
+                                        var:
+                                          lib: core.hidden
+                                          code: variable
+                                          values:
+                                            variableName: frame
+                                        value:
+                                          lib: core.utils
+                                          code: convert to string
+                                          values:
+                                            val:
+                                              lib: core.hidden
+                                              code: variable
+                                              values:
+                                                variableName: X
+                                  body2:
+                                    - lib: core.propsVars
+                                      code: set
+                                      values:
+                                        var:
+                                          lib: core.hidden
+                                          code: variable
+                                          values:
+                                            variableName: frame
+                                        value: -1
+                                  condition:
+                                    lib: core.math
+                                    code: '>'
+                                    values:
+                                      a:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: 'Y'
+                                      b: 0
+                              - lib: core.propsVars
+                                code: set
+                                values:
+                                  value:
+                                    lib: core.math
+                                    code: +
+                                    values:
+                                      b:
+                                        lib: core.math
+                                        code: '*'
+                                        values:
+                                          b: 16
+                                          a:
+                                            lib: core.hidden
+                                            code: variable
+                                            values:
+                                              variableName: X
+                                      a:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: 'off'
+                                  var:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: posX
+                              - lib: core
+                                code: templates.copy
+                                values:
+                                  template: T6r2PQKKW6HjQQ
+                                  return:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: trash
+                                  x:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: posX
+                                  'y':
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: posY
+                                customOptions:
+                                  frame:
+                                    lib: core.objects
+                                    code: object read
+                                    values:
+                                      property:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: frame
+                                      object:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: frames
+                                  pts:
+                                    lib: core.utils
+                                    code: const string
+                                    values:
+                                      val: W
+                                  X:
+                                    lib: core.hidden
+                                    code: variable
+                                    values:
+                                      variableName: X
+                                  'Y':
+                                    lib: core.math
+                                    code: +
+                                    values:
+                                      a:
+                                        lib: core.hidden
+                                        code: variable
+                                        values:
+                                          variableName: 'Y'
+                                      b: 6
+                            'N': 8
+                            variableName:
+                              lib: core.hidden
+                              code: variable
+                              values:
+                                variableName: X
+                      'N': 2
+                      variableName:
+                        lib: core.hidden
+                        code: variable
+                        values:
+                          variableName: 'Y'
+                  - lib: core.script
+                    code: run script
+                    values:
+                      name: 9q9JMDd125kw8G
+                arguments: {}
+                lib: core
+                variables:
+                  - 'off'
+                  - X
+                  - 'Y'
+                  - posX
+                  - posY
+                  - trash
+                  - frames
+                  - frame
+            extends:
+              cgroup: ''
+            lastmod: 1723071640887
+            uid: ntF9B1N8WhH9tD
+            behaviors: []
+            extendTypes: ''
+            properties: []
+          - lastmod: 1722954071284
+            type: texture
+            name: screen_board
+            untill: 0
+            grid:
+              - 1
+              - 1
+            axis:
+              - 104
+              - 104
+            marginx: 0
+            marginy: 0
+            imgWidth: 208
+            imgHeight: 208
+            width: 208
+            height: 208
+            offx: 0
+            offy: 0
+            origname: iTtCj52rqrnwbfg.png
+            shape: rect
+            left: 88
+            right: 88
+            top: 88
+            bottom: 88
+            uid: TtCj52rqrnwbfg
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(25).png
+          - lastmod: 1722955771091
+            type: texture
+            name: greenLight
+            untill: 0
+            grid:
+              - 2
+              - 1
+            axis:
+              - 8
+              - 8
+            marginx: 0
+            marginy: 0
+            imgWidth: 32
+            imgHeight: 16
+            width: 16
+            height: 16
+            offx: 0
+            offy: 0
+            origname: i5C6LBQd2pJprPc.png
+            shape: rect
+            left: 8
+            right: 8
+            top: 8
+            bottom: 8
+            uid: 5C6LBQd2pJprPc
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(26).png
+          - type: template
+            baseClass: AnimatedSprite
+            name: highlight
+            depth: 0
+            texture: 5C6LBQd2pJprPc
+            playAnimationOnStart: false
+            loopAnimation: true
+            animationFPS: 30
+            visible: true
+            events:
+              - eventKey: OnCreate
+                code:
+                  - lib: core.logic
+                    code: if branch
+                    values:
+                      body1:
+                        - lib: core.misc
+                          code: js
+                          values:
+                            code: >-
+                              let _ = templates.list['Piece'].find((v) =>
+                              v.dragging)
+
+                              let $ = place.meet(this, 'Piece')
+
+                              if(_ && $.pts != _.pts){
+                                  $.tex = `P${$.pts}_C`
+                                  $.gotoAndStop($.frame)
+                                  this.alpha = 0
+                              } else if(_){
+                                  this.alpha = 0
+                                  this.kill = true 
+                              }
+                      condition:
+                        lib: place
+                        code: place.meet
+                        values:
+                          me:
+                            lib: core.propsVars
+                            code: this
+                            values: {}
+                          template: T6r2PQKKW6HjQQ
+                          x:
+                            lib: core.hidden
+                            code: property
+                            values:
+                              variableName: x
+                          'y':
+                            lib: core.hidden
+                            code: property
+                            values:
+                              variableName: 'y'
+                arguments: {}
+                lib: core
+                variables: []
+            extends:
+              cgroup: place
+            lastmod: 1722957324730
+            uid: 8PmmbRd8k9zgKM
+            behaviors: []
+            extendTypes: ''
+            properties:
+              - x
+              - 'y'
+          - lastmod: 1723060438345
+            type: texture
+            name: shadow
+            untill: 0
+            grid:
+              - 1
+              - 1
+            axis:
+              - 104
+              - 104
+            marginx: 0
+            marginy: 0
+            imgWidth: 208
+            imgHeight: 208
+            width: 208
+            height: 208
+            offx: 0
+            offy: 0
+            origname: ikj5QtGgcmHnBC1.png
+            shape: rect
+            left: 104
+            right: 104
+            top: 104
+            bottom: 104
+            uid: kj5QtGgcmHnBC1
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(33).png
+          - type: template
+            baseClass: AnimatedSprite
+            name: shadow
+            depth: 0
+            texture: kj5QtGgcmHnBC1
+            playAnimationOnStart: false
+            loopAnimation: true
+            animationFPS: 30
+            visible: true
+            events:
+              - eventKey: OnCreate
+                code:
+                  - lib: core.appearance
+                    code: set alpha
+                    values:
+                      value: 0.9
+                  - lib: core.appearance
+                    code: set depth
+                    values:
+                      value: 10
+                arguments: {}
+                lib: core
+                variables: []
+            extends: {}
+            lastmod: 1723060065547
+            uid: hLTkLR4bHrthFN
+            behaviors: []
+            extendTypes: ''
+            properties: []
+          - lastmod: 1723065614991
+            type: texture
+            name: b1
+            untill: 0
+            grid:
+              - 1
+              - 1
+            axis:
+              - 16
+              - 16
+            marginx: 0
+            marginy: 0
+            imgWidth: 32
+            imgHeight: 32
+            width: 32
+            height: 32
+            offx: 0
+            offy: 0
+            origname: iCbQBNm6d7GbHww.png
+            shape: rect
+            left: 13
+            right: 13
+            top: 7
+            bottom: 8
+            uid: CbQBNm6d7GbHww
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(36).png
+          - lastmod: 1723065645134
+            type: texture
+            name: b2
+            untill: 0
+            grid:
+              - 1
+              - 1
+            axis:
+              - 16
+              - 16
+            marginx: 0
+            marginy: 0
+            imgWidth: 32
+            imgHeight: 32
+            width: 32
+            height: 32
+            offx: 0
+            offy: 0
+            origname: imdG1Pmfggkzn1M.png
+            shape: rect
+            left: 13
+            right: 13
+            top: 8
+            bottom: 8
+            uid: mdG1Pmfggkzn1M
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(35).png
+          - type: template
+            baseClass: AnimatedSprite
+            name: button
+            depth: 0
+            texture: 36Rh6fCbkwTj3C
+            playAnimationOnStart: false
+            loopAnimation: true
+            animationFPS: 30
+            visible: true
+            events:
+              - eventKey: OnPointerDown
+                code:
+                  - lib: core.misc
+                    code: execute function
+                    values:
+                      func:
+                        lib: core.hidden
+                        code: property
+                        values:
+                          variableName: action
+                      return:
+                        lib: core.hidden
+                        code: property
+                        values:
+                          variableName: killYourself
+                arguments: {}
+                lib: core
+                variables: []
+            extends: {}
+            lastmod: 1723073092217
+            uid: G3TLd9BMR13QfC
+            behaviors: []
+            extendTypes: ''
+            properties:
+              - action
+              - killYourself
+          - lastmod: 1723066604724
+            type: texture
+            name: pixil-frame-0(37)
+            untill: 0
+            grid:
+              - 1
+              - 1
+            axis:
+              - 14
+              - 14
+            marginx: 0
+            marginy: 0
+            imgWidth: 28
+            imgHeight: 28
+            width: 28
+            height: 28
+            offx: 0
+            offy: 0
+            origname: i36Rh6fCbkwTj3C.png
+            shape: rect
+            left: 14
+            right: 14
+            top: 14
+            bottom: 14
+            uid: 36Rh6fCbkwTj3C
+            padding: 1
+            isBlank: false
+            source: /home/danny/Downloads/pixil-frame-0(37).png
+  - type: folder
+    uid: bDkGK7RJ81nkhj
+    colorClass: act
+    icon: help-circle
+    name: scripts
+    lastmod: 1722724621315
+    entries:
+      - type: folder
+        uid: 6R2CBB2jTMBmF9
+        colorClass: act
+        icon: help-circle
+        name: light
+        lastmod: 1722795869334
+        entries:
+          - uid: gQMR873DPr9NFP
+            name: highlight
+            code: |
+              globalThis.highlight = () => {
+                  if(globalThis.canGo){
+                      globalThis.canGo.forEach(pos => {
+                          let _ = templates.copy("highlight", pos.x, pos.y, {alpha : 1})
+                          _.X = Math.min(7, Math.max(0, Math.round((_.x - globalThis.offset) / 16)))
+                          _.Y = Math.min(7, Math.max(0, Math.round((_.y - globalThis.offset) / 16)))
+
+                          _.gotoAndStop(1)
+                          if(_.X%2 == 0 && _.Y%2==0){
+                              _.gotoAndStop(0)
+                          } else if(_.X%2 != 0 && _.Y%2 != 0){
+                              _.gotoAndStop(0)
+                          }
+                      })
+                  }
+              }
+            language: typescript
+            variables: []
+            runAutomatically: true
+            lastmod: 1722957479308
+            type: script
+          - uid: wbpnkdF3W972m4
+            name: lowlight
+            code: |-
+              globalThis.lowlight = (options) => {
+                  globalThis.canGo = []
+                  templates.list['highlight'].forEach(p => p.kill = true)
+                  templates.list['Piece'].forEach(p =>{
+                      p.tex = `P${p.pts}_N`
+                      p.gotoAndStop(p.frame)
+                  })
+              };
+            language: typescript
+            variables: []
+            runAutomatically: true
+            lastmod: 1722967587070
+            type: script
+      - type: folder
+        uid: bdtG2Tm2MK3CQf
+        colorClass: act
+        icon: help-circle
+        name: movement
+        lastmod: 1722795883832
+        entries:
+          - type: folder
+            uid: WgmHmkBDF2PrH7
+            colorClass: act
+            icon: help-circle
+            name: move
+            lastmod: 1722797472929
+            entries:
+              - uid: Bq9TMTHJ1CJTBj
+                name: pawnMoves
+                code: |-
+                  globalThis.pawnMoves = (pawn) => {
+                      let x = pawn.x;
+                      let y = pawn.y;
+                      let moved = pawn.moved;
+                      let one = place.meet(pawn, x, y + (pawn.pts == "W" ? -16 : 16), 'Piece');
+                      let two = place.meet(pawn, x, y + (pawn.pts == "W" ? -32 : 32), 'Piece');
+                      
+
+                      if (!templates.isCopy(one)) {
+                          globalThis.canGo.push({x, y: y + (pawn.pts == "W" ? -16 : 16)})
+                          if (!moved) {
+                              if (!templates.isCopy(two)) {
+                                  globalThis.canGo.push({x, y: y + (pawn.pts == "W" ? -32 : 32)})
+                              }
+                          }
+                      }
+
+                      y = y + (pawn.pts == "W" ? -16 : 16)
+
+                      two = place.meet(pawn, x + 16, y, 'Piece');
+                      if (templates.isCopy(two)) {
+                          globalThis.canGo.push({x: x + 16, y })
+                      }
+
+                      two = place.meet(pawn, x - 16, y, 'Piece');
+                      if (templates.isCopy(two)) {
+                          globalThis.canGo.push({x: x - 16, y })
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1722827588551
+                type: script
+              - uid: DHr9m7Kt1Ht631
+                name: bishopMoves
+                code: |-
+                  globalThis.bishopMoves = (bishop) => {
+                      let x = bishop.x;
+                      let y = bishop.y;
+                      
+                      //Right Up
+                      for(let Y = -1; Y < 0; Y--){
+                          let X = Math.abs(Y)
+                          if(bishop.Y + Y == -1 || bishop.X + X == 8) break
+                          let p = place.meet(bishop, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Right Down
+                      for(let Y = 1; Y < 8; Y++){
+                          let X = Y
+                          if(bishop.Y + Y == 8 || bishop.X + X == 8) break
+                          let p = place.meet(bishop, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Left Down
+                      for(let Y = 1; Y < 8; Y++){
+                          let X = Y * -1
+                          if(bishop.Y + Y == 8 || bishop.X + X == -1) break
+                          let p = place.meet(bishop, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Left Up
+                      for(let Y = -1; Y < 0; Y--){
+                          let X = Y
+                          if(bishop.Y + Y == -1 || bishop.X + X == -1) break
+                          let p = place.meet(bishop, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1722827819670
+                type: script
+              - uid: bWW6DqWdLmqCwd
+                name: kingMoves
+                code: |-
+                  globalThis.kingMoves = (king) => {
+                      let x = king.x;
+                      let y = king.y;
+                      
+                      for(let Y = -1; Y < 2; Y++){
+                          if(king.Y + Y == -1 || king.Y + Y == 8) continue
+                          for(let X = -1; X < 2; X++){
+                              if(king.X + X == -1 || king.X + X == 8) continue
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          }   
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1722827644611
+                type: script
+              - uid: Tr6HhpR4dgMWJ3
+                name: moves
+                code: |-
+                  globalThis.moves = (piece) => {
+                      switch(piece.frame){
+                          case 0:
+                              globalThis.pawnMoves(piece)
+                              break
+                          case 1:
+                              globalThis.horseMoves(piece)
+                              break
+                          case 2:
+                              globalThis.towerMoves(piece)
+                              break
+                          case 3:
+                              globalThis.bishopMoves(piece)
+                              break
+                          case 4:
+                              globalThis.queenMoves(piece)
+                              break
+                          case 5:
+                              globalThis.kingMoves(piece)
+                              break
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1723038862771
+                type: script
+              - uid: J1QKN9kM4g88fC
+                name: towerMoves
+                code: |-
+                  globalThis.towerMoves = (tower) => {
+                      let x = tower.x;
+                      let y = tower.y;
+                      
+                      //Up
+                      for(let Y = -1; Y > -8; Y--){
+                          if(tower.Y + Y == -1) break
+                          let one = place.meet(tower, x, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Right
+                      for(let X = 1; X < 8; X++){
+                          if(tower.X + X >= 8) break
+                          let one = place.meet(tower, x + X * 16, y, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x: x + X * 16 , y})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16 , y})
+                              break
+                          }
+                      }
+
+                      //Down
+                      for(let Y = 1; Y < 8; Y++){
+                          if(tower.Y + Y >= 8) break
+                          let one = place.meet(tower, x, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Left
+                      for(let X = -1; X > -8; X--){
+                          if(tower.X + X == -1) break
+                          let one = place.meet(tower, x + X * 16, y, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x: x + X * 16 , y: y})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16 , y})
+                              break
+                          }
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1722827022428
+                type: script
+              - uid: bkbkjpNd6rH4d2
+                name: horseMoves
+                code: |
+                  globalThis.horseMoves = (horse) => {
+                      let x = horse.x;
+                      let y = horse.y;
+
+                      let X, Y;
+                      let one;
+
+                      //Up
+                      Y = -2*16
+                      if(horse.Y -2 > -1){
+                          for(let _ = -1; _ < 2; _+=2){
+                              if(horse.X + _ == -1 || horse.X + _ == 8) continue
+                              X = _ * 16
+                              globalThis.canGo.push({x: x + X, y: y + Y})
+                          }
+                      }
+
+                      //Right
+                      X = 2*16
+                      if(horse.X +2 < 8){
+                          for(let _ = -1; _ < 2; _+=2){
+                              if(horse.Y + _ == -1 || horse.Y + _ == 8) continue
+                              Y = _ * 16
+                              globalThis.canGo.push({x: x + X, y: y + Y})
+                          }
+                      }
+
+                      //Down
+                      Y = 2*16
+                      if(horse.Y +2 < 8){
+                          for(let _ = -1; _ < 2; _+=2){
+                              if(horse.X + _ == -1 || horse.X + _ == 8) continue
+                              X = _ * 16
+                              globalThis.canGo.push({x: x + X, y: y + Y})
+                          }
+                      }
+
+                      //Left
+                      X = -2*16
+                      if(horse.X -2 > -1){
+                          for(let _ = -1; _ < 2; _+=2){
+                              if(horse.Y + _ == -1 || horse.Y + _ == 8) continue
+                              Y = _ * 16
+                              globalThis.canGo.push({x: x + X, y: y + Y})
+                          }
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1722827694781
+                type: script
+              - uid: F5mMHj7pgk1Mg8
+                name: queenMoves
+                code: |-
+                  globalThis.queenMoves = (queen) => {
+                      let x = queen.x
+                      let y = queen.y
+                      
+                      //Up
+                      for(let Y = -1; Y > -8; Y--){
+                          if(queen.Y + Y == -1) break
+                          let one = place.meet(queen, x, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x , y: y + Y * 16}) 
+                          } else {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Right Up
+                      for(let Y = -1; Y < 0; Y--){
+                          let X = Math.abs(Y)
+                          if(queen.Y + Y == -1 || queen.X + X == 8) break
+                          let p = place.meet(queen, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Right
+                      for(let X = 1; X < 8; X++){
+                          if(queen.X + X >= 8) break
+                          let one = place.meet(queen, x + X * 16, y, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x: x + X * 16 , y})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16 , y})
+                              break
+                          }
+                      }
+
+                      //Right Down
+                      for(let Y = 1; Y < 8; Y++){
+                          let X = Y
+                          if(queen.Y + Y == 8 || queen.X + X == 8) break
+                          let p = place.meet(queen, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Down
+                      for(let Y = 1; Y < 8; Y++){
+                          if(queen.Y + Y >= 8) break
+                          let one = place.meet(queen, x, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x , y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Left Down
+                      for(let Y = 1; Y < 8; Y++){
+                          let X = Y * -1
+                          if(queen.Y + Y == 8 || queen.X + X == -1) break
+                          let p = place.meet(queen, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+
+                      //Left
+                      for(let X = -1; X > -8; X--){
+                          if(queen.X + X == -1) break
+                          let one = place.meet(queen, x + X * 16, y, 'Piece');
+                          if (!templates.isCopy(one)) {
+                              globalThis.canGo.push({x: x + X * 16 , y: y})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16 , y: y})
+                              break
+                          }
+                      }
+
+                      //Left Up
+                      for(let Y = -1; Y < 0; Y--){
+                          let X = Y
+                          if(queen.Y + Y == -1 || queen.X + X == -1) break
+                          let p = place.meet(queen, x + X * 16, y + Y * 16, 'Piece');
+                          if (!templates.isCopy(p)) {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                          } else {
+                              globalThis.canGo.push({x: x + X * 16, y: y + Y * 16})
+                              break
+                          }
+                      }
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1722826979032
+                type: script
+          - type: folder
+            uid: j7NNh21qDDGfrn
+            colorClass: act
+            icon: help-circle
+            name: validate
+            lastmod: 1722797485212
+            entries:
+              - uid: K9BFG9TmNTQH26
+                name: validateMove
+                code: |-
+                  let turns = {
+                      W : "B",
+                      B : "W"
+                  }
+
+                  let P = {
+                      W: {X:0,Y:0, off: 43 - 32},
+                      B: {X:0,Y:0, off: 53 + 16*8}
+                  }
+
+                  globalThis.validateMove = (piece) => {
+                      if(globalThis.turn != piece.pts) return sendBack(piece)
+
+                      let _ = place.meet(piece, "Piece")
+                      if(_ && _.pts == piece.pts){
+                          //do the castling
+                          let king;
+                          let tower;
+
+                          if(_.frame == 5 && piece.frame == 2){
+                              king = _
+                              tower = piece
+                          } else if (_.frame == 2 && piece.frame == 5){
+                              king = piece
+                              tower = _
+                          } else return false
+
+                          if(king.Y != tower.Y || king.moved || tower.moved) return false
+
+                          if(king.X > tower.X){
+                              if(place.meet(tower, tower.x+16, tower.y, "Piece")) return
+                              if(place.meet(tower, tower.x+32, tower.y, "Piece")) return
+                              if(place.meet(tower, tower.x+48, tower.y, "Piece")) return
+                              king.X -= 3
+                              tower.X += 2
+                              sendBack(king)
+                              sendBack(tower)
+                              if(globalThis.isInCheck(king)){
+                                  king.X += 3
+                                  tower.X -= 2
+                                  sendBack(king)
+                                  sendBack(tower)
+                              } else {
+                                  king.moved = true
+                                  tower.moved = true
+                                  globalThis.turn = turns[piece.pts]
+                                  return true
+                              }
+                          } else {
+                              if(place.meet(king, king.x+16, king.y, "Piece")) return
+                              if(place.meet(king, king.x+32, king.y, "Piece")) return
+                              king.X += 2
+                              tower.X -= 2
+                              sendBack(king)
+                              sendBack(tower)
+                              if(globalThis.isInCheck(king)){
+                                  king.X -= 2
+                                  tower.X += 2
+                                  sendBack(king)
+                                  sendBack(tower)
+                                  
+                              }else{
+                                  king.moved = true
+                                  tower.moved = true
+                                  globalThis.turn = turns[piece.pts]
+                                  return true
+                              }
+                          }
+                      }
+
+                      if(!place.occupied(piece, "place")) {
+                          sendBack(piece)
+                          return false
+                      }
+
+                      
+                      if(_) _.eaten = true
+
+                      if(globalThis.isKingInCheck(piece.pts)){
+                          sendBack(piece)
+                          if(_) _.eaten = false
+                          return false
+                      }
+
+                      if(_){
+                          let p = templates.copy('placeholder', globalThis.offset + P[_.pts].X*16, P[_.pts].off + P[_.pts].Y*16)
+                          p.tex = `P${_.pts}`
+                          p.gotoAndStop(_.frame)
+                          P[_.pts].X++
+
+                          if(P[_.pts].X == 8){
+                              P[_.pts].X = 0
+                              P[_.pts].Y++
+                          }
+                          _.kill = true
+                      }
+
+                      globalThis.turn = turns[piece.pts]
+                      piece.X = clamp(0, (piece.x - globalThis.offset) / 16, 7)
+                      piece.Y = clamp(0, (piece.y - globalThis.offset) / 16, 7)
+
+                      if(piece.frame == 0){
+                          if(piece.Y == 0 || piece.Y == 7){
+                              globalThis.pawn = piece
+                              piece.dragging = false
+                              templates.copy('shadow', 104, 104)
+                              templates.copy('select', camera.right/2 - 48, camera.bottom/2, {frame:0, tex: `select_${piece.pts}`})
+                              templates.copy('select', camera.right/2 - 16, camera.bottom/2, {frame:1, tex: `select_${piece.pts}`})
+                              templates.copy('select', camera.right/2 + 16, camera.bottom/2, {frame:2, tex: `select_${piece.pts}`})
+                              templates.copy('select', camera.right/2 + 48, camera.bottom/2, {frame:3, tex: `select_${piece.pts}`})
+                          }
+                      }
+
+                      return true
+                  }
+
+                  function sendBack(piece){
+                      piece.x = (piece.X * 16) + globalThis.offset
+                      piece.y = (piece.Y * 16) + globalThis.offset
+                  }
+
+                  function clamp(min,x,max){
+                      return Math.min(max, Math.max(min, x))
+                  }
+                language: typescript
+                variables: []
+                runAutomatically: true
+                lastmod: 1723082889408
+                type: script
+      - uid: rWP54TtRGg9WD4
+        name: isInCheck
+        code: |-
+          //1: 83
+          //2: 125
+          //121
+
+          globalThis.isInCheck = (piece) => {
+              let {x, y} = piece;
+              let X, Y;
+
+              let enemyPiece;
+
+              let frames = ["pawn", "horse", "tower", "bishop", "queen", "king"]
+
+              //Up
+              for(let Y = -1; Y > -8; Y--){
+                  if(piece.Y + Y == -1) break
+                  enemyPiece = place.meet(piece, x, y + Y * 16, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "tower" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Right Up
+              for(let Y = -1; Y < 0; Y--){
+                  let X = Math.abs(Y)
+                  if(piece.Y + Y == -1 || piece.X + X == 8) break
+                  enemyPiece = place.meet(piece, x + X * 16, y + Y * 16, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "bishop" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "pawn" &&
+                          Math.abs(piece.X - X) == 1 &&
+                          Math.abs(piece.Y - Y) == 1 && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Right
+              for(let X = 1; X < 8; X++){
+                  if(piece.X + X >= 8) break
+                  enemyPiece = place.meet(piece, x + X * 16, y, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "tower" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Right Down
+              for(let Y = 1; Y < 8; Y++){
+                  let X = Y
+                  if(piece.Y + Y == 8 || piece.X + X == 8) break
+                  enemyPiece = place.meet(piece, x + X * 16, y + Y * 16, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "bishop" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "pawn" &&
+                          Math.abs(piece.X - X) == 1 &&
+                          Math.abs(piece.Y - Y) == 1 && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Down
+              for(let Y = 1; Y < 8; Y++){
+                  if(piece.Y + Y >= 8) break
+                  enemyPiece = place.meet(piece, x, y + Y * 16, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "tower" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Left Down
+              for(let Y = 1; Y < 8; Y++){
+                  let X = Y * -1
+                  if(piece.Y + Y == 8 || piece.X + X == -1) break
+                  enemyPiece = place.meet(piece, x + X * 16, y + Y * 16, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "bishop" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "pawn" &&
+                          Math.abs(piece.X - X) == 1 &&
+                          Math.abs(piece.Y - Y) == 1 && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Left
+              for(let X = -1; X > -8; X--){
+                  if(piece.X + X == -1) break
+                  enemyPiece = place.meet(piece, x + X * 16, y, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "tower" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Left Up
+              for(let Y = -1; Y < 0; Y--){
+                  let X = Y
+                  if(piece.Y + Y == -1 || piece.X + X == -1) break
+                  enemyPiece = place.meet(piece, x + X * 16, y + Y * 16, 'Piece');
+                  if (templates.isCopy(enemyPiece)) {
+                      if(enemyPiece.pts == piece.pts) break
+                      if(frames[enemyPiece.frame] == "bishop" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "queen" && !enemyPiece.eaten) return true
+                      if(frames[enemyPiece.frame] == "pawn" &&
+                          Math.abs(piece.X - X) == 1 &&
+                          Math.abs(piece.Y - Y) == 1 && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Up
+              Y = -2*16
+              if(piece.Y -2 > -1){
+                  for(let _ = -1; _ < 2; _+=2){
+                      X = _ * 16
+                      enemyPiece = place.meet(piece, x + X, y + Y, 'Piece');
+                      if(piece.X + _ == -1 || piece.X + _ == 8) continue
+                      if(enemyPiece.pts == piece.pts) continue
+                      if(frames[enemyPiece.frame] == "horse" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Right
+              X = 2*16
+              if(piece.X +2 < 8){
+                  for(let _ = -1; _ < 2; _+=2){
+                      Y = _ * 16
+                      enemyPiece = place.meet(piece, x + X, y + Y, 'Piece');
+                      if(piece.Y + _ == -1 || piece.Y + _ == 8) continue
+                      if(enemyPiece.pts == piece.pts) continue
+                      if(frames[enemyPiece.frame] == "horse" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Down
+              Y = 2*16
+              if(piece.Y +2 < 8){
+                  for(let _ = -1; _ < 2; _+=2){
+                      X = _ * 16
+                      enemyPiece = place.meet(piece, x + X, y + Y, 'Piece');
+                      if(piece.X + _ == -1 || piece.X + _ == 8) continue
+                      if(enemyPiece.pts == piece.pts) continue
+                      if(frames[enemyPiece.frame] == "horse" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              //Left
+              X = -2*16
+              if(piece.X -2 > -1){
+                  for(let _ = -1; _ < 2; _+=2){
+                      Y = _ * 16
+                      enemyPiece = place.meet(piece, x + X, y + Y, 'Piece');
+                      if(piece.Y + _ == -1 || piece.Y + _ == 8) continue
+                      if(enemyPiece.pts == piece.pts) continue
+                      if(frames[enemyPiece.frame] == "horse" && !enemyPiece.eaten) return true
+                  }
+              }
+
+              return false
+          }
+
+          globalThis.isKingInCheck = (pts) => {
+              let piece = templates.list['Piece'].find((piece) => piece.pts == pts && piece.frame == 5)
+              return globalThis.isInCheck(piece)
+          }
+        language: typescript
+        variables: []
+        runAutomatically: true
+        lastmod: 1723066635536
+        type: script
+      - uid: 9q9JMDd125kw8G
+        name: start
+        code: |-
+          let _ = templates.copy('button', 187, 19)
+          _.action = () => {
+              templates.list['button'].forEach(b => {if(b.x != _.x && b.y != _.y) b.kill = true})
+              templates.list['shadow'].forEach(s => s.kill = true)
+
+              let back = templates.copy('shadow', 104, 104)
+              let one = templates.copy('button', camera.right/2 - 15, camera.bottom/2, {tex:"b1", zIndex: 20})
+              let two = templates.copy('button', camera.right/2 + 15, camera.bottom/2, {tex:"b2", zIndex: 20})
+              one.action = () => rooms.restart()
+              two.action = () => {
+                  back.kill = one.kill = two.kill = true
+                  back.aplha = one.alpha = two.alpha = 0
+              }
+          }
+        language: typescript
+        variables: []
+        runAutomatically: false
+        lastmod: 1723073457988
+        type: script
+globalVars:
+  - dragging
+  - pawnMove
+  - canGo
+  - highlight
+  - lowlight
+  - offset
+settings:
+  authoring:
+    author: ''
+    site: ''
+    title: chess
+    version:
+      - 0
+      - 0
+      - 0
+    versionPostfix: ''
+    appId: ''
+  rendering:
+    usePixiLegacy: true
+    transparent: false
+    maxFPS: 60
+    pixelatedrender: true
+    highDensity: true
+    desktopMode: maximized
+    hideCursor: false
+    mobileScreenOrientation: landscape
+    viewMode: scaleFill
+  export:
+    showErrors: true
+    errorsLink: ''
+    autocloseDesktop: true
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+    bundleAssetTree: false
+    bundleAssetTypes:
+      texture: true
+      template: true
+      room: true
+      behavior: false
+      typeface: false
+      sound: false
+      style: false
+      tandem: false
+      script: false
+  branding:
+    accent: '#446adb'
+    invertPreloaderScheme: true
+    icon: -1
+    splashScreen: -1
+    forceSmoothIcons: false
+    forceSmoothSplashScreen: false
+    hideLoadingLogo: false
+    alternativeLogo: false
+    customLoadingText: ''
+  fps: 30
